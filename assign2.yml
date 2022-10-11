@@ -2,3 +2,7 @@ name: Post assignment2 comment
 on:
   pull_request:
     types: [opened]
+jobs:
+  build:
+    name: Post assignment2 comment
+    runs-on: ubuntu-latest
