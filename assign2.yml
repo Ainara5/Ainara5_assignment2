@@ -1,0 +1,4 @@
+name: Post assignment2 comment
+on:
+  pull_request:
+    types: [opened]
